@@ -1,0 +1,40 @@
+#picture{
+    border-radius: 50%;
+    height: 200px;
+}
+
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+
+.bottom-container,.background-containers{
+    background: linear-gradient(300deg, #E0F4FF, #87C4FF, #39A7FF, #FFEED9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.py-5{
+    padding-top: 3rem!important;
+    padding-bottom: 0 !important;
+}
